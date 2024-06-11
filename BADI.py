@@ -5,6 +5,6 @@ import importlib
 os.system("git pull")
 
 try:
-    importlib.import_module("XXX").menu() 
+    importlib.import_module("BADI").menu() 
 except Exception as e: 
     exit(str(e))
